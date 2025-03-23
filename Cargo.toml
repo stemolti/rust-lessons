@@ -1,0 +1,9 @@
+
+[workspace]
+resolver = '2'
+members = [
+	'packages/lesson_1',
+]
+
+[profile.release]
+lto = true
